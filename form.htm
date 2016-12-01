@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>表单联系</title> 
+</head>
+
+<body>
+<form>
+First name: <input type="text" name="firstname"></br>
+Last name: <input type="text" name="lastname"></br>
+Password: <input type="password" name="pwd">
+</br>
+<p>单选</p>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+<br/>
+<input type="submit" value="提交">
+<!-- 提交按钮的文字 使用value属性更改-->
+</form>
+
+<p>复选</p>
+<form action="">
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+</form>
+</br>
+
+<p>下拉用select</p>
+<form action="">
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<p>预选下拉（添加selected属性）</p>
+<form action="">
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat" selected>Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+
+<p>文本域</p>
+<textarea rows="10" cols="30">
+我是一个文本框。
+</textarea>
+<p>按钮</p>
+<form action="">
+<input type="button" value="Hello world!">
+</form>
+
+
+
+
+</body>
+</html>
